@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "whatsapp-link-generator"
+version = "1.0.0"
+description = "Desktop WhatsApp link generator built with Python and PyQt5."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "PyQt5>=5.15,<6",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
