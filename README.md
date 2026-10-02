@@ -1,3 +1,5 @@
+<img src="https://www.upload.ee/image/19807908/2026-10-02_082256.png" border="0" alt="2026-10-02_082256.png" />
+
 # WhatsApp Link Generator
 
 A desktop WhatsApp link generator built with Python and PyQt5.
